@@ -14,7 +14,7 @@ jobs:
           github_user_name: Mehras-Saadi
           outputs: |
             ./dist/github-snake.svg
-
+          size: 56
       - name: Push to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v3
         with:
